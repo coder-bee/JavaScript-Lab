@@ -7,7 +7,7 @@ In Javascript, there are only 6 data types defined:
  – the primitives (boolean, number, string, null, undefined) 
  and object (the only reference type). 
  
- > 🛑 Arrays do not belong to this list because they are objects as well. This is a common confusion among developers who assume that arrays are a special data type in Javascript.
+ > 🛑  Arrays do not belong to this list because they are objects as well. This is a common confusion among developers who assume that arrays are a special data type in Javascript.
 
 The items in the array are nothing more than properties of that objects. You can use any name as property for an objects, including numbers or even empty string. However, if the property name is not a valid identifier (doesn’t start with a letter), you can only access it through obj[property_name] and not `obj.property_name`.
 
@@ -57,7 +57,7 @@ let Fruits = {
         // code here
     }
 };
-
+```
 ## Object Literal Syntax
 Object literals are defined using the following syntax rules:
 
